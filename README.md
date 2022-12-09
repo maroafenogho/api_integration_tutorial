@@ -1,16 +1,24 @@
-# api_integration_tutorial
+# Flutter API integration
 
-A new Flutter project.
+A project to help introduce beginners to the use of APIs in Flutter.
+
+![app_screenshot](api_int.png)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a single-screen appication built with Flutter 3.3.1 as an educational material for beginners in flutter development who want to get a grasp of how to make API calls and use REST APIs in their projects.
 
-A few resources to get you started if this is your first Flutter project:
+The project illustrates how to make use of different data types in Dart as well as the following:
+- Functions
+- Asynchronous programming
+- Object Oriented Programming
+- Dart classes
+- Flutter packages
+- JSON data
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The app uses the [HTTP](https://pub.dev/packages/http/) package to make network calls to the API and the data obtained is processed and displayed to the user.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Link to bored API](https://www.boredapi.com/)
+
+
+
