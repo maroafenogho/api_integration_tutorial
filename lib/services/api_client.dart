@@ -13,6 +13,12 @@ class ApiClient {
       final jsonResponse = jsonDecode(response.body);
       activity = Activity.fromJson(jsonResponse);
     } else {
+      activity = Activity(
+          activity: 'Activity',
+          type: 'type',
+          link: 'link',
+          participants: 0,
+          price: 0.0);
       debugPrint(response.body);
     }
     return activity;
