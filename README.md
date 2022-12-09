@@ -20,6 +20,8 @@ The app uses the [HTTP](https://pub.dev/packages/http/) package to make network 
 
 - [Link to bored API](https://www.boredapi.com/)
 
+Follow this [link](https://youtu.be/S58xWv9Zutw) to watch the video tutorial.
+
 
 
 
