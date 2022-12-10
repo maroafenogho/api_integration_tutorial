@@ -3,9 +3,13 @@ import 'dart:io';
 import 'package:api_integration_tutorial/models/activity_model.dart';
 import 'package:api_integration_tutorial/services/api_client.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 void main() {
   HttpOverrides.global = MyHttpOverrides();
+  WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual, overlays: []);
+
   runApp(const MyApp());
 }
 
